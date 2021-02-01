@@ -15,8 +15,8 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/lineage_mh2lm.mk
+    $(LOCAL_DIR)/havoc_mh2lm.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_mh2lm-userdebug \
-    lineage_mh2lm-eng
+    havoc_mh2lm-userdebug \
+    havoc_mh2lm-eng

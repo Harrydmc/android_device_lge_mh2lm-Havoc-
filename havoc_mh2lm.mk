@@ -24,11 +24,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/lge/mh2lm/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
 # Device identifiers
 
-PRODUCT_NAME := lineage_mh2lm
+PRODUCT_NAME := havoc_mh2lm
 PRODUCT_DEVICE := mh2lm
 PRODUCT_BRAND := lge
 PRODUCT_MANUFACTURER := LGE
